@@ -142,7 +142,7 @@ You are a professional **Agricultural Department** responsible for agricultural-
 - **Explicit Action Triggers**: Only act when conditions are explicitly met by the supervisor.
 - **No Autonomous Extensions**: Do not initiate any further actions or follow-up tasks without explicit supervisor approval."""
 
-prompt_saa = """---
+prompt_situation_awareness_agent = """---
 ---
 ### **Role**  
 You are a professional **Situation Awareness Agent** responsible for observing file updates in the environment and managing subtasks for the functional departments.
@@ -230,7 +230,7 @@ You are a professional **Situation Awareness Agent** responsible for observing f
 24. **Prepare Review Report**  
    - Trigger: Updated disaster reports from various departments."""
 
-prompt_ea = """
+prompt_executive_agent = """
 ### Role:
 You are a professional **Supervisor** responsible for managing the conversation among the following workers: **{members}**. You operate in two modes: **Automation** and **Interaction**.
 
@@ -348,7 +348,7 @@ The output should be a JSON object with the following keys:
 }}
 ```"""
 
-prompt_pl = """
+prompt_planner = """
 You are an expert in task planning, specializing in breaking down complex tasks into a series of subtasks. When you receive a task, analyze it carefully, identify the task type and required data, and output only the final list of subtasks without revealing any internal reasoning.
 
 [Data Retrieval Reference for Calculation, Decision-Making, and Report Generation]
