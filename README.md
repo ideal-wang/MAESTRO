@@ -1,2 +1,2 @@
-# LLM_EWF
+# MAESTRO
 a multi-agent framework for disaster early warning
