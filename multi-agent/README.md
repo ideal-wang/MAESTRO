@@ -1,12 +1,12 @@
-**LLM-EMF: A Multi-Agent Framework for Government Decision Support in Automated Natural Disaster Simulations**
+**MAESTRO: A Multi-Agent Framework for Government Decision Support in Automated Natural Disaster Simulations**
 
-LLM-EMF is a modular, multi-agent system designed to assist government agencies in conducting automated scenario analyses during natural disasters. By orchestrating specialized agents—each responsible for distinct functional tasks—LLM-EMF enables rapid, data-driven decision support throughout the lifecycle of an event.
+MAESTRO is a modular, multi-agent system designed to assist government agencies in conducting automated scenario analyses during natural disasters. By orchestrating specialized agents—each responsible for distinct functional tasks, MAESTRO enables rapid, data-driven decision support throughout the lifecycle of an event.
 
 ---
 
 ## Quick Start
 
-To explore LLM-EMF’s capabilities, open and run the Jupyter notebook
+To explore MAESTRO’s capabilities, open and run the Jupyter notebook
 **`multi_agent_test.ipynb`**
 (located alongside this README). This notebook provides hands-on demonstrations of how the various agents be constructed and interact to simulate disaster scenarios and generate actionable insights.
 
@@ -17,7 +17,7 @@ To explore LLM-EMF’s capabilities, open and run the Jupyter notebook
 All subdirectories listed below contain essential components for the multi-agent system:
 
 ```
-LLM-EMF/
+MAESTRO/
 ├── README.md
 ├── multi_agent_test.ipynb
 ├── config/
